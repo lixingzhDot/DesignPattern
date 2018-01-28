@@ -9,6 +9,7 @@
     <version>1.0</version>
     <modules>
         <module>strategypattern</module>
+        <module>observerpattern</module>
     </modules>
     <packaging>pom</packaging>
 

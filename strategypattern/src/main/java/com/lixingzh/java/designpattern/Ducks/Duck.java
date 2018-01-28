@@ -3,13 +3,7 @@ package com.lixingzh.java.designpattern.Ducks;
 import com.lixingzh.java.designpattern.strategies.FlyBehavior;
 import com.lixingzh.java.designpattern.strategies.SquackBehavior;
 
-/**
- * Strategy Pattern
- * The Strategy Pattern defines a family of algorithms, encapsulates each one and makes them interchangeable.
- * Strategy lets the algorithm vary independently from clients that use it.
- *
- * In this example, not every duck can fly. So we make fly to be an "strategy" (interface), make it "interchangeable".
- */
+
 public abstract class Duck {
     private FlyBehavior flyBehavior;
     private SquackBehavior squackBehavior;
