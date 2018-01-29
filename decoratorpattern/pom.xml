@@ -7,19 +7,18 @@
         <groupId>com.lixingzh.java.designpattern</groupId>
         <version>1.0</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>strategy-pattern</artifactId>
-    <packaging>jar</packaging>
-    <name>strategy-pattern</name>
+
+    <artifactId>decorator-pattern</artifactId>
     <version>1.0</version>
+    <packaging>jar</packaging>
+    <name>decorator pattern</name>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -29,20 +28,21 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
+
             <build>
-                <finalName>StrategyPattern</finalName>
+                <finalName>decorator-pattern</finalName>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-compiler-plugin</artifactId>
-                        <version>3.3</version>
                         <configuration>
-                            <source>1.8</source>
-                            <target>1.8</target>
+                            <source>1.9</source>
+                            <target>1.9</target>
                         </configuration>
                     </plugin>
                 </plugins>
             </build>
         </profile>
     </profiles>
+
 </project>

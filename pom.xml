@@ -10,6 +10,8 @@
     <modules>
         <module>strategypattern</module>
         <module>observerpattern</module>
+        <module>decoratorpattern</module>
+        <module>factorypattern</module>
     </modules>
     <packaging>pom</packaging>
 
