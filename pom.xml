@@ -15,6 +15,9 @@
         <module>commandpattern</module>
         <module>adapterpattern</module>
         <module>facadepattern</module>
+        <module>templatemethodpatter</module>
+        <module>iteratorpatterm</module>
+        <module>compositepattern</module>
     </modules>
     <packaging>pom</packaging>
 
