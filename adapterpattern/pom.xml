@@ -7,18 +7,19 @@
         <groupId>com.lixingzh.java.designpattern</groupId>
         <version>1.0</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>decorator-pattern</artifactId>
-    <version>1.0</version>
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>adapter-pattern</artifactId>
     <packaging>jar</packaging>
-    <name>decorator pattern</name>
+    <name>adapter-pattern</name>
+    <version>1.0</version>
 
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -28,9 +29,8 @@
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
-
             <build>
-                <finalName>decorator-pattern</finalName>
+                <finalName>AdapterPattern</finalName>
                 <plugins>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -45,5 +45,4 @@
             </build>
         </profile>
     </profiles>
-
 </project>
