@@ -18,6 +18,7 @@
         <module>templatemethodpatter</module>
         <module>iteratorpatterm</module>
         <module>compositepattern</module>
+        <module>statepattern</module>
     </modules>
     <packaging>pom</packaging>
 
