@@ -6,6 +6,10 @@ import com.lixingzh.java.designpattern.javaproxy.impl.PersonBeanImpl;
 
 import java.lang.reflect.Proxy;
 
+/**
+ * Proxy Pattern
+ * Provides a surrogate or placeholder for another object to control access to it
+ */
 public class ProxyPatternMain {
     public static void main(String[] args) {
         ProxyPatternMain test = new ProxyPatternMain();
